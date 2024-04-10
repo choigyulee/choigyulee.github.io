@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+html, body {
+  overflow: auto;
+  /* position: absolute; */
+  background-color: black;
+  color:#FBF7F3;
+}  
+
+button{
+	all: unset;
+  font-style: italic;
+  font-size: 30px;
+}
+
+
+a:link, a:visited {
+  font-size: 30px;
+  text-decoration: none;
+  color: #FBF7F3;
+}
+
+.nav-menu {
+  font-family: "Playfair", serif;
+  list-style-type: none;
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+  height: 2rem;
+	justify-content: space-between;
+  align-items: center;
+}
+
+ul.nav-menu > li {
+  padding: 5;
+  text-align: center;
+  margin-left: 20px;
+}
+
+nav::after {
+  content:"";
+  display:block;
+  clear:both;
+}
+
+h1 {
+  width: 100%;
+  height: 50%, auto;
+  padding: 10%;
+  text-align: center;
+  font-size: 150px;
+  font-family:"Nomo Sans KR", sans-serif;
+}
+
+.heart {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
